@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <webstudio>Document</webstudio>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css">
@@ -455,12 +455,12 @@
             </button>
 
 
-            <div class="form-field">
+            <div class="forms">
                 <form class="form">
                     <h3 class="backen">Deje sus datos, nos contactaremos con usted</h3>
                     <div class="form-field">
                         <label class="form-label" for="input-name"> nombre</label>
-                        <div class="modal__for-name1">
+                        <div class="form-input">
                             <input class="modal__for-name" type="text" id="name">
                             <svg class="modal__for-svg " width="18" height="18">
                                 <use href="./images/icons/symbol-defs.svg#icon-persona-negra-18dp-1"></use>
@@ -471,28 +471,28 @@
 
             <div class="form-field">
                 <label class="form-label" for="input-tel"> telefono</label>
-                <div class="modal__for-name1">
-                    <input class="modal__for-name" type="text" id="name">
+                <div class="form-input">
+                    <input class="modal__for-name" type="text" id="input-tel" />
                     <svg class="modal__for-svg " width="18" height="18">
                         <use href="./images/icons/symbol-defs.svg#icon-telfono-negro-18dp-1"></use>
                     </svg>
                 </div>
             </div>
+
             <div class="form-field">
-                <label class="form-label" for="input-name">E-email</label>
-                <div class="modal__for-name1">
-                    <input class="modal__for-name" type="text" id="name">
+                <label class="form-label" for="input-email">E-email</label>
+                <div class="form-input">
+                    <input class="modal__for-name" type="text" id="input-email" />
                     <svg class="modal__for-svg " width="18" height="18">
                         <use href="./images/icons/symbol-defs.svg#icon-correo-electrnico-negro-18dp-1"></use>
                     </svg>
                 </div>
             </div>
-            <div class="form-field">
-                <label class="form-label" for="input-name">Comentarios</label>
-                <div class="modal__for-name1">
-                    <input class="modal__commit" type="text" id="name" placeholder="Introduzca el texto">
 
-                </div>
+            <div class="form-field">
+                <label class="form-label" for="input-name">Comentarios
+                    <textarea class="modal__commit" type="text" placeholder="Introduzca el texto" id="name"></textarea>
+                </label>
             </div>
         </div>
         </form>
