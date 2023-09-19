@@ -787,7 +787,7 @@ svg {
 }
 
 .fiter-buttona {
-    transition: 250ms var(--cubic-bezier-animation);
+    transition: 250ms var(--cubic-bezier-animation)250ms;
 }
 
 .fiter-buttona {
