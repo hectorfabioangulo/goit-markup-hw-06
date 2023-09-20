@@ -41,6 +41,11 @@ svg {
     fill: currentcolor;
 }
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
 
 .logo-blue {
     color: var(--blue);
@@ -68,14 +73,11 @@ svg {
     cursor: pointer;
 }
 
-
 .link:hover,
 .link:focus {
     color: var(--blue);
     outline: none;
 }
-
-
 
 .current::after {
     content: "";
@@ -118,7 +120,6 @@ svg {
 }
 
 .header-tel {
-
     color: #757575;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -127,7 +128,6 @@ svg {
     line-height: 1.17em;
     letter-spacing: 0.03px;
     cursor: pointer;
-
 }
 
 .header-tel:hover,
@@ -146,7 +146,6 @@ svg {
     letter-spacing: 0.06em;
     padding: 10px 20px;
     border-radius: 4px;
-
 }
 
 .hero-title {
@@ -159,7 +158,6 @@ svg {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 .politicas-title {
@@ -235,7 +233,7 @@ svg {
 }
 
 .directions__container {
-    background: #2F303A;
+
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     line-height: 1.8em;
@@ -243,6 +241,9 @@ svg {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.03em;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 70px;
 }
 
 .fiter-button {
@@ -283,12 +284,10 @@ svg {
     font-weight: 700;
     line-height: 2em;
     letter-spacing: 0.02em;
-
 }
 
 .team-diseño:hover {
     color: #757575;
-
 }
 
 .team-profec {
@@ -303,13 +302,6 @@ svg {
 
 /*     estilos del header menu principal web studio */
 
-.container {
-
-    width: 1200px;
-    padding: 0 15px;
-    margin: auto;
-
-}
 
 .navigation__container {
     display: flex;
@@ -369,7 +361,6 @@ svg {
 
 .section {
     padding-top: 50px;
-
 }
 
 .title_container {
@@ -378,7 +369,6 @@ svg {
     width: 945px;
     align-items: center;
     padding: 94px;
-
 }
 
 /*---------tercera seccion productos----------*/
@@ -386,7 +376,6 @@ svg {
 .about__galery {
     display: flex;
     gap: 30px;
-
 }
 
 .about__imagenes {
@@ -405,14 +394,10 @@ svg {
 
 .about__imagenes:hover {
     fill: var(--blue);
-
-
-
 }
 
 .politicas-list:focus {
     color: var(--blue);
-
 }
 
 /*------------cuarta seccion diseño------------*/
@@ -422,7 +407,6 @@ svg {
     justify-content: center;
     gap: 20px;
     padding-bottom: 50px;
-
 }
 
 .about__img {
@@ -435,18 +419,15 @@ svg {
 .diseño-list {
     position: relative;
     padding-bottom: 10px;
-
 }
 
 .diseño-soluciones {
-
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     background-color: rgba(47, 48, 58, 0.80);
-    ;
     color: #FFF;
     font-weight: 700;
     font-size: 14px;
@@ -458,7 +439,6 @@ svg {
     width: 100%;
     height: 28%;
     bottom: 0px;
-
 }
 
 
@@ -473,11 +453,6 @@ svg {
     padding-bottom: 42px;
     padding-left: 10px;
     padding-right: 10px;
-
-}
-
-.redes {
-    transition: var(--detail-color) 250ms var(--cubic-bezier-animation);
 }
 
 .redes {
@@ -489,6 +464,9 @@ svg {
     justify-content: center;
     align-items: center;
     color: rgba(175, 177, 184, 1);
+    outline: none;
+    transition: color 250ms var(--cubic-bezier-animation),
+        background-color 250ms var(--cubic-bezier-animation);
 }
 
 .social:hover,
@@ -497,9 +475,7 @@ svg {
 .redes:focus {
     background-color: var(--blue);
     color: var(--detail-color);
-    outline: none;
 }
-
 
 /*---------sexta--------*/
 
@@ -565,11 +541,6 @@ svg {
 }
 
 .logits {
-    transition: color 250ms var(--cubic-bezier-animation),
-        border 250ms var(--cubic-bezier-animation);
-}
-
-.logits {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -578,6 +549,8 @@ svg {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: rgba(175, 177, 184, 1);
+    transition: color 250ms var(--cubic-bezier-animation),
+        border 250ms var(--cubic-bezier-animation);
 }
 
 .logits:hover,
@@ -590,24 +563,15 @@ svg {
 
 /*-----------------footer-------------*/
 
+
 .container-footer {
     background-color: rgba(47, 48, 58, 1);
-    width: 1600px;
-}
-
-.directions__container {
-    width: 1600px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    gap: 70px;
 }
 
 .address {
     display: inline-flex;
     align-items: baseline;
-    gap: 70px;
+    gap: 62px;
 }
 
 .header__link {
@@ -626,9 +590,6 @@ svg {
 
 .header-direccio {
     color: rgba(255, 255, 255, 1);
-}
-
-.header-direccio {
     transition: 250ms var(--cubic-bezier-animation);
 }
 
@@ -666,10 +627,6 @@ svg {
 }
 
 .social {
-    transition: 250ms var(--cubic-bezier-animation);
-}
-
-.social {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 44px;
@@ -678,6 +635,7 @@ svg {
     justify-content: center;
     align-items: center;
     color: rgba(175, 177, 184, 1);
+    transition: color 250ms var(--cubic-bezier-animation);
 }
 
 .email-footer {
@@ -768,10 +726,6 @@ svg {
 }
 
 .fiter-buttonw {
-    transition: 250ms var(--cubic-bezier-animation);
-}
-
-.fiter-buttonw {
     color: rgba(33, 33, 33, 1);
     width: 128px;
     height: 38px;
@@ -784,10 +738,7 @@ svg {
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 2px solid rgba(0, 0, 0, 0.0);
-}
-
-.fiter-buttona {
-    transition: 250ms var(--cubic-bezier-animation)250ms;
+    transition: 250ms var(--cubic-bezier-animation);
 }
 
 .fiter-buttona {
@@ -803,13 +754,6 @@ svg {
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 2px solid rgba(0, 0, 0, 0.0);
-}
-
-.fiter-buttond {
-    transition: 250ms var(--cubic-bezier-animation);
-}
-
-.fiter-buttond {
     transition: 250ms var(--cubic-bezier-animation);
 }
 
@@ -826,9 +770,6 @@ svg {
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 2px solid rgba(0, 0, 0, 0.0);
-}
-
-.fiter-buttonm {
     transition: 250ms var(--cubic-bezier-animation);
 }
 
@@ -845,6 +786,7 @@ svg {
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 2px solid rgba(0, 0, 0, 0.0);
+    transition: 250ms var(--cubic-bezier-animation);
 }
 
 .fiter-button:hover,
@@ -924,22 +866,12 @@ svg {
     color: var(--white-font);
     background-color: var(--card);
     margin: 0;
-}
-
-.text-information {
     transition: 250ms var(--cubic-bezier-animation);
 }
 
 .fichas:hover>.text-information {
     top: 0;
 }
-
-
-
-
-
-
-
 
 /*------------------backdrop--------------*/
 .backdrop {
@@ -1031,8 +963,6 @@ svg {
     letter-spacing: 0.01em;
     text-align: left;
     color: rgba(117, 117, 117, 1);
-
-
 }
 
 .form-input {
@@ -1060,8 +990,6 @@ svg {
 .modal__for-name:focus-visible,
 .modal__for-name:focus-within {
     border: 2px solid var(--blue);
-
-
 }
 
 .modal__for-svg {
@@ -1072,7 +1000,6 @@ svg {
     outline: none;
     transition: 250ms var(--cubic-bezier-animation);
 }
-
 
 .modal__commit {
     width: 448px;
